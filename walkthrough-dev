@@ -7,7 +7,7 @@ projects:
     type: git
     location: https://github.com/integr8ly/tutorial-web-app.git
 - name: asciidoc
-  clonePath: src/github.com/pwright/tutorial-web-app-walkthroughs
+  clonePath: tutorial-web-app-walkthroughs
   source:
     type: git
     location: https://github.com/integr8ly/walkthroughs.git
