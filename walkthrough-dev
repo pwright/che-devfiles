@@ -1,0 +1,13 @@
+apiVersion: 1.0.0
+metadata:
+  name: solution-patterns
+projects:
+- name: webapp
+  source:
+    type: git
+    location: https://github.com/integr8ly/tutorial-web-app.git
+- name: asciidoc
+  clonePath: src/github.com/pwright/tutorial-web-app-walkthroughs
+  source:
+    type: git
+    location: https://github.com/integr8ly/walkthroughs.git
